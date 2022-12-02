@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.hover {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  color: blue;
+  font-size: 200px;
+  text-align: center;
+  border: 5px double black;
+}
+
+div :hover {
+  height: 100%;
+  background-color: blue;
+  color: blueviolet;
+  transition: all 0.3s;
+  font-size: 50px;
+}
+
+a {
+  background-color: powderblue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: gold;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  font-size: 90px;
+  text-align: center;
+  padding: 0;
+  border: 2px dashed black;
+  margin: 20px;
+}
+
+button :active {
+  color: black;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 100%;
+  cursor: alias;
+}
